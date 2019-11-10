@@ -1,0 +1,62 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+import "spellcheckprovider.idl";
+
+[
+    uuid(34AEE1FF-3935-4C5B-8F6E-77C980E47185),
+    version(1.0),
+]
+library SpellCheckProviderLib
+{
+    importlib("stdole2.tlb");
+
+    [
+        uuid(29E2FCDB-8C6F-4A15-AE9A-25B5DA1FE44B)
+    ]
+    coclass SpellCheckProvider
+    {
+        [default] interface ISpellCheckProvider;
+    };
+
+    [
+        uuid(718D12CB-2C66-42C4-A058-49559D0B6C7E)
+    ]
+    coclass SpellCheckProviderFactory
+    {
+        [default] interface ISpellCheckProviderFactory;
+    };
+
+    [
+        uuid(5423BF7C-3421-4844-B6CF-50AAF1184D62)
+    ]
+    coclass EnumString
+    {
+        [default] interface IEnumString;
+    };
+
+    [
+        uuid(50E1285E-0BFB-4F6C-AC09-C61F8792DD51)
+    ]
+    coclass OptionDescription
+    {
+        [default] interface IOptionDescription;
+    };
+
+    [
+        uuid(445010EB-3595-4EDE-B6C6-4A56DA2E20A0)
+    ]
+    coclass EnumSpellingError
+    {
+        [default] interface IEnumSpellingError;
+    };
+
+    [
+        uuid(79EA9F21-5E97-4C8B-B503-9125F8D1D57A)
+    ]
+    coclass SpellingError
+    {
+        [default] interface ISpellingError;
+    };
+};
+

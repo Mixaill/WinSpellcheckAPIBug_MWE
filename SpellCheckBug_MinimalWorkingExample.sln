@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSpellingClient", "SpellCheckClient\SampleSpellingClient.vcxproj", "{6D04155E-C3D9-4CB6-BCFD-2B5A205C0329}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSpellCheckProvider", "SpellCheckProvider\SampleSpellCheckProvider.vcxproj", "{55EB3C7E-8AC5-4A58-A3DA-D8E1187CEE5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D04155E-C3D9-4CB6-BCFD-2B5A205C0329}.Debug|x64.ActiveCfg = Debug|x64
+		{6D04155E-C3D9-4CB6-BCFD-2B5A205C0329}.Debug|x64.Build.0 = Debug|x64
+		{6D04155E-C3D9-4CB6-BCFD-2B5A205C0329}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D04155E-C3D9-4CB6-BCFD-2B5A205C0329}.Debug|x86.Build.0 = Debug|Win32
+		{55EB3C7E-8AC5-4A58-A3DA-D8E1187CEE5E}.Debug|x64.ActiveCfg = Debug|x64
+		{55EB3C7E-8AC5-4A58-A3DA-D8E1187CEE5E}.Debug|x64.Build.0 = Debug|x64
+		{55EB3C7E-8AC5-4A58-A3DA-D8E1187CEE5E}.Debug|x86.ActiveCfg = Debug|Win32
+		{55EB3C7E-8AC5-4A58-A3DA-D8E1187CEE5E}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9ECCE55-0E0B-4C6F-A157-958CA54A9097}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+
+.vs/
+
+SpellCheckClient/Debug/
+
+SpellCheckClient/x64/Debug/
+
+*.user
+
+SpellCheckProvider/Debug/
+
+SpellCheckProvider/x64/Debug/
