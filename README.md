@@ -12,7 +12,7 @@ When application tries to use any function of `ISpellCheckFactory` interface, it
 * `MsSpellCheckingFacility.dll` tries to launch `MsSpellCheckingHost.exe` in case if it was not loaded previously
 * In case of 32-bit apps, it performs search in `SysWow64` instead of `System32`. Unfortunately, there is only 64-bit version on 64-bit Windows, so it always fails.
 
-![screenshot_procmon](D:\WinSpellcheckProviderBug_MinimalWorkingExample\screenshot_procmon.png)
+![screenshot_procmon](screenshot_procmon.png)
 
 
 https://docs.microsoft.com/en-us/windows/win32/api/spellcheck/nn-spellcheck-ispellcheckerfactory
@@ -24,7 +24,8 @@ https://docs.microsoft.com/en-us/windows/win32/api/spellcheck/nn-spellcheck-ispe
 2. Place content of `<repo_root>\output\` in `C:\test\` folder
 
 3. Grant all permissions to ALL for `C:\test\SampleSpellCheckProvider_64.dll` file
-![screenshot_rights](D:\WinSpellcheckProviderBug_MinimalWorkingExample\screenshot_rights.png)
+
+![screenshot_rights](screenshot_rights.png)
 
 4. Apply `<repo_root>\SpellCheckBug_register.reg` file
 
